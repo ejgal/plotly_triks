@@ -51,4 +51,4 @@ if __name__ == "__main__":
     for template in ["nav", "plotly"]:
         fig = px.scatter(df, x="Første", y="Andre", color="Tredje", template=template)
         fig = basefig(fig)
-        fig.write_image(f"figur/2d_scatter{template}.png")
+        fig.write_image(f"figur/2dscatter_{template}.png")
